@@ -8,6 +8,10 @@
 // any CSS you import will output into a single css file (app.css in this case)
 import '../css/app.css';
 
+import $ from 'jquery';
+// uncomment if you have legacy code that needs global variables
+//global.$ = $;
+
 import getNiceMessage from './get_nice_message';
 
 console.log(getNiceMessage(5));
