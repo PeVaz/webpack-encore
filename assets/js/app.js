@@ -14,7 +14,7 @@ import 'bootstrap'; // adds functions to jQuery
 // uncomment if you have legacy code that needs global variables
 //global.$ = $;
 
-import getNiceMessage from './get_nice_message';
+import getNiceMessage from './components/get_nice_message';
 
 console.log(getNiceMessage(5));
 
